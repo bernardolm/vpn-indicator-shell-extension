@@ -43,11 +43,11 @@ const VpnIndicator = new Lang.Class({
         var text;
 
         if (data == 256) {
-            text = "VPN is down!";
+            text = "";
         } else if (data == 0) {
-            text = "VPN is up!";
+            text = "🚨🚨🚨 🚨🚨🚨 🚨🚨🚨 VPN IS ACTIVE 🚨🚨🚨 🚨🚨🚨 🚨🚨🚨";
         } else {
-            text = "Error!";
+            text = "Error in VPN indicator";
         }
 
         this.buttonText.set_text(text);
