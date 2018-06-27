@@ -1,6 +1,15 @@
 {
-    "uuid": "vpn-indicator@howdoicomputer.fastmail.com",
-    "shell-version": ["3.22.1","3.18.5"],
-    "name": "VPN Indicator",
-    "description": "A status indicator for a VPN connection."
+  "description": "A status indicator for a VPN connection.",
+  "name": "VPN Indicator",
+  "original-authors": [
+    "dr.frankinfurter@gmail.com"
+  ],
+  "shell-version": [
+    "3.28",
+    "3.22",
+    "3.18"
+  ],
+  "url": "https://github.com/sstent/gnome-shell-extension-stealfocus",
+  "uuid": "vpn-indicator@howdoicomputer.fastmail.com",
+  "version": 1
 }
