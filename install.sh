@@ -2,5 +2,5 @@
 
 dir=~/.local/share/gnome-shell/extensions/vpn-indicator@howdoicomputer.fastmail.com
 
-rm -rf $dir
+$(trash -f $dir || rm -rf $dir || true)
 cp -R . $dir
